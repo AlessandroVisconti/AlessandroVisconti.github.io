@@ -40,7 +40,7 @@ function copia(text) {
     }
 }
 function copyToClipboard() {
-    var result = copia(document.getElementById("input-textarea").value);
+    var result = copia(document.getElementById("cleaned-text").value);
     console.log("copied:", result);
     document.getElementById("check").style.display = "block";
     document.getElementById("copied-check").innerText = " Copied!";
